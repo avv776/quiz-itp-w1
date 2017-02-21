@@ -13,7 +13,7 @@ def question_1():
     d) Collection
     """
     # Return the correct value.
-    pass
+    Return Boolean
 
 
 # Question 2
@@ -31,7 +31,7 @@ def question_2():
     e) "hello world"
     """
     # Return the correct value.
-    pass
+    Return True
 
 
 # Question 3
@@ -46,7 +46,10 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
-    pass
+    def remove_Es(a_string):
+        if a_string:
+            return a_string - 'e' or -'E'
+        return a_string
 
 
 # Question 4
@@ -63,7 +66,7 @@ def question_4():
     result = a_list[3**2 - 8] + a_list[-1] + a_tuple[2]
     """
     # Return the correct value.
-    pass
+    Return 22
 
 
 # Question 5
